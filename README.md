@@ -2,11 +2,11 @@
 
 Very bare-bones boxscore widget that solves the problem presented here: https://github.com/BarstoolSports/fullstack-challenge
 
-The backend is built using NodeJS with a cloud Mongo instance for storage. When hitting the API, the API will first check how recently the underlying data has been update - if it is more than 15 seconds, the Mongo DB will update before sending the results.
+The backend is built using NodeJS with a cloud Mongo instance for storage. When hitting the API, the API will first check how recently the underlying data has been updated - if it was last updated more than 15 seconds ago, the Mongo DB will update before sending the results.
 
 # Backend API
 
-The API is configured to use localhose port 8080 currently. There are only a handful of GET requests that the API supports, namely:
+The API is configured to use localhost port 8080 currently. There are only a handful of GET requests that the API supports, namely:
 1. /api/games - Returns ALL data for ALL games
 2. /api/games/MLB || /api/games/NBA - This will return ALL data for specifically the baseball or basketball game in the Mongo DB
 3. /api/games/:league?stats=[STATISTIC] - This will fetch a specific stastics for a game. An acceptable list of statistics can be found in the games.controller.js file
@@ -21,4 +21,4 @@ After downloading/cloning the repository, getting started is easy, simply:
 4. Navigate to http://localhost:3000/ to view the resulting widget example
 
 # TODO
-While this is a barebones app there are still various improvments that can be made to both the backend and frontend. In the backend serving new responses can often be timely and there may be an easier way to structure the architecture such that we are not using a huge string of promises tied to each other. On the frontend, the client is responsible for much of the data transformation that has to occur to be able to be viewed correctly - it is certainly possible to refactor this stress to be on the backend. Additionally, there are various react concepts such as memoization that could further improve performance.
+While this is a barebones app there are still various improvments that can be made to both the backend and frontend. In the backend serving new responses can often be timely and there may be an easier way to structure the architecture such that we are not using a huge string of promises tied to each other. Also, there is minimal error handling and communication of improper API requests that go back to the client. On the frontend, the client is responsible for much of the data transformation that has to occur to be able to be viewed correctly - it is certainly possible to refactor this stress to be on the backend. Additionally, there are various react concepts such as memoization that could further improve performance.
