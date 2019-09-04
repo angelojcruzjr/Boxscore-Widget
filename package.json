@@ -1,0 +1,19 @@
+{
+  "name": "barstool-node-backend",
+  "version": "1.0.0",
+  "description": "Simple NodeJS backend utilizing for storage Mongo to handle barstool API data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .\\app.js"
+  },
+  "author": "ancruz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "eslint": "^6.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11",
+    "request": "^2.88.0"
+  }
+}
