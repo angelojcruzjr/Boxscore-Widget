@@ -16,7 +16,7 @@ The API is configured to use localhose port 8080 currently. There are only a han
 
 After downloading/cloning the repository, getting started is easy, simply:
 1. Run 'npm start' in the command line in the main repository to startup the Node Server
-2. cd to the clients folder
+2. cd to the client folder
 3. Again, run 'npm start' in the command line to get the react app up and going
 4. Navigate to http://localhost:3000/ to view the resulting widget example
 
