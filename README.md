@@ -19,6 +19,9 @@ After downloading/cloning the repository, getting started is easy, simply:
 2. cd to the client folder
 3. Again, run 'npm start' in the command line to get the react app up and going
 4. Navigate to http://localhost:3000/ to view the resulting widget example
+5. IMPORTANT! To update what results are displayed, navigate to the constants/constants.js folder and change the first constant to 'MLB'. If you are running the client/frontend code correctly then the results will automatically be updated
+
+Only 'NBA' and 'MLB' are currently supported, any other types will break the widget unfortunately :(
 
 # TODO
 While this is a barebones app there are still various improvments that can be made to both the backend and frontend. In the backend serving new responses can often be timely and there may be an easier way to structure the architecture such that we are not using a huge string of promises tied to each other. Also, there is minimal error handling and communication of improper API requests that go back to the client. On the frontend, the client is responsible for much of the data transformation that has to occur to be able to be viewed correctly - it is certainly possible to refactor this stress to be on the backend. Additionally, there are various react concepts such as memoization that could further improve performance.
