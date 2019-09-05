@@ -9,7 +9,7 @@ The backend is built using NodeJS with a [cloud Mongo instance](https://www.mong
 The API is configured to use localhost port 8080 currently. There are only a handful of GET requests that the API supports, namely:
 1. `/api/games` - Returns ALL data for ALL games
 2. `/api/games/MLB || /api/games/NBA` - This will return ALL data for specifically the baseball or basketball game in the Mongo DB
-3. `/api/games/:league?stats=[STATISTIC]` - This will fetch a specific stastics for a game. An acceptable list of statistics can be found in the games.controller.js file
+3. `/api/games/:league?stats=[STATISTIC]` - This will fetch a specific stastic for a game. An acceptable list of statistics can be found in the [games.controller.js](https://github.com/angelojcruzjr/Boxscore-Widget/blob/master/controllers/games.controller.js) file
 4. `api/games?stats=[STATISTIC]` - This will fetch overlapping data for both the MLB and NBA game that the Mongo DB holds
 
 # Getting Started
