@@ -2,7 +2,7 @@
 
 Very bare-bones boxscore widget that solves the problem presented here: https://github.com/BarstoolSports/fullstack-challenge
 
-The backend is built using NodeJS with a [cloud Mongo instance](https://www.mongodb.com/cloud/atlas) for storage. When hitting the API, the API will first check how recently the underlying data has been updated - if it was last updated more than 15 seconds ago, the Mongo DB will update before sending the results.
+The backend is built using NodeJS/Express with a [cloud Mongo instance](https://www.mongodb.com/cloud/atlas) for storage. When hitting the API, the API will first check how recently the underlying data has been updated - if it was last updated more than 15 seconds ago, the Mongo DB will update before sending the results.
 
 # Backend API
 
