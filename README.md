@@ -27,7 +27,7 @@ Only 'NBA' and 'MLB' are currently supported, any other types will break the wid
 While this is a barebones app there are still various improvments that can be made to both the backend and frontend. In the backend serving new responses can often be timely and there may be an easier way to structure the architecture such that we are not using a huge string of promises tied to each other. Also, there is minimal error handling and communication of improper API requests that go back to the client. On the frontend, the client is responsible for much of the data transformation that has to occur to be able to be viewed correctly - it is certainly possible to refactor this stress to be on the backend. Additionally, there are various react concepts such as memoization that could further improve performance. Lastly, we definitely <u>do not</u> need to put our node_modules folder here but I have kept it in for convenience. 😊
 
 # Sample Output
-Here is what the NBA game will output (don't judge the css ):
+Here is what the NBA game will output (don't judge the css 😉):
 ![alt text](https://github.com/angelojcruzjr/Boxscore-Widget/blob/master/screenshots/App%20Screencapture.PNG?raw=true)
 
 <b>Pro Tip:</b> Resize your window to see the widgets built-in responsiveness!
