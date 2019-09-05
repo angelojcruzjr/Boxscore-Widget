@@ -19,7 +19,7 @@ After downloading/cloning the repository, getting started is easy, simply:
 2. cd to the client folder
 3. Again, run `npm start` in the command line to get the react app up and going
 4. Navigate to http://localhost:3000/ to view the resulting widget example
-5. IMPORTANT! To update what results are displayed, navigate to the ./constants/constants.js file in the client code (/client folder in the main repo) and change `export const LEAGUETYPE = 'MLB'` to `export const LEAGUETYPE = 'NBA'` (or vice versa). If you are running the client/frontend code correctly then the results will automatically be updated
+5. <b>IMPORTANT:</b> To update what results are displayed, navigate to the ./constants/constants.js file in the client code (/client folder in the main repo) and change `export const LEAGUETYPE = 'MLB'` to `export const LEAGUETYPE = 'NBA'` (or vice versa). If you are running the client/frontend code correctly then the results will automatically be updated
 
 Only 'NBA' and 'MLB' are currently supported, any other types will break the widget unfortunately 😞
 
