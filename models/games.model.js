@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-let homeTeamSchema = new Schema(
+let gameSchema = new Schema(
     {
         gameDetails: Schema.Types.Mixed
     },
@@ -10,4 +10,4 @@ let homeTeamSchema = new Schema(
     }
 );
 
-module.exports = mongoose.model('Game', homeTeamSchema);
+module.exports = mongoose.model('Game', gameSchema);
