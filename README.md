@@ -28,6 +28,6 @@ While this is a barebones app there are still various improvments that can be ma
 
 # Sample Output
 Here is what the NBA game will output (don't judge the css ):
-(https://github.com/angelojcruzjr/Boxscore-Widget/blob/master/screenshots/App%20Screencapture.PNG?raw=true)
+![alt text](https://github.com/angelojcruzjr/Boxscore-Widget/blob/master/screenshots/App%20Screencapture.PNG?raw=true)
 
 <b>Pro Tip:</b> Resize your window to see the widgets built-in responsiveness!
